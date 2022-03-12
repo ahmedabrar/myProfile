@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.scss";
 import { About, Footer, Header, Skills, Testimonial, Work } from "./container";
-import { Navbar } from "./components/Navbar";
+import { Navbar } from "./components";
 
 const App = () => {
   return (
@@ -10,9 +10,10 @@ const App = () => {
       <Header />
       <About />
       <Work />
+
       <Skills />
-      <Testimonial />
-      <Footer />
+      {/* <Testimonial /> */}
+      {/* <Footer />  */}
     </div>
   );
 };
